@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -2648,7 +2648,7 @@ textarea.form-control.is-valid {
 }
 
 .invalid-feedback {
-  display: block;
+  display: none;
   width: 100%;
   margin-top: 0.25rem;
   font-size: 80%;

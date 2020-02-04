@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="form-group row justify-content-md-center top-btn">
                                     <div class="col-12 col-sm-6 col-md-6">
-                                        {{ Form::submit('Create Companies', ['class'=>'btn btn-success col']) }}
+                                        {{ Form::submit('Update Companies', ['class'=>'btn btn-success col']) }}
                                     </div>
                                     <div class="col-12 col-sm-6 col-md-6">
                                         <a class="btn btn-danger color-leading col" href="{{route('companies.index')}}">Cancel</a>

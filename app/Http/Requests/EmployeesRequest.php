@@ -28,7 +28,7 @@ class EmployeesRequest extends FormRequest
             'lastname'      =>'required|max:255',
             'email'          =>'max:255',
             'phone'          =>'max:10',
-            'companies_id'   =>'max:1',
+            'companies_id'   =>'max:10',
         ];
     }
 }
